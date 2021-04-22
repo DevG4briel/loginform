@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hind';
+  text-decoration: none;
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+}
+body {
+  background: linear-gradient(30deg, #4C0B5F, #610B21);
+  background-repeat: none;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+main.container {
+  background: rgb(41, 41, 41);
+  max-width: 350px;
+  min-height: 50vh;
+  padding: 2rem;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+ 
+}
+
+main h2 {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+main h2::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 25px;
+  bottom: 3px;
+  left: 0;
+  border-radius: 8px;
+  background: linear-gradient(30deg, #4C0B5F, #610B21);
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field input {
+  outline: none;
+  font-size: 0.8rem;
+  width: 50vh;
+  border-radius: 4px;
+
+}
+input[type="submit"] {
+margin-top: 0.4rem;
+padding: 0.2rem;
+width: 50vh;
+background: linear-gradient(30deg, #4C0B5F, #610B21);
+cursor: pointer;
+border-radius: 4px;
+transition: all 0.3s ease-in;
+  
+}
+
+input[type="submit"]:hover {
+  letter-spacing: 1px;
+  background: linear-gradient(30deg, #4C0B5F, #610B21);
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  text-align: center;
+  text-decoration: none;
+  outline: none; 
+}
+
+.icon-twitter {
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.icon-facebook {
+  color: rgb(255, 255, 255);
+}
+
+span {
+  font-size: 1.05rem;
+}
+
+
+
+
+
